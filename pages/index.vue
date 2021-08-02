@@ -174,6 +174,11 @@ export default {
       padding: 0;
       font-weight: 300;
 
+      @media (max-width: $mobile-width) {
+        text-align: justify;
+        font-size: 20px;
+      }
+
       &--right {
         margin-left: 32px;
 
