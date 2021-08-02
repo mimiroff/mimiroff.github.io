@@ -1,4 +1,10 @@
-// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
-//
-// The variables you want to modify
-// $font-size-root: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+$mobile-width: 780px;
+$tablet-width: 1200px;
+$min-content-width: 320px;
+$max-content-width: 1200px;
