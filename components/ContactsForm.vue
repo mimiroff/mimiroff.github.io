@@ -41,7 +41,8 @@ export default {
       }
       try {
         const { email, name, subject, description } = this;
-        const res = await this.$axios.post('https://personal-6b588-default-rtdb.firebaseio.com/contacts.json', { email, name, subject, description })
+        const now = new Date().toISOString();
+        const res = await this.$axios.post('https://personal-6b588-default-rtdb.firebaseio.com/contacts.json', { email, name, subject, description, createAt: now })
         if (res.status === 200) {
           this.showSuccessAlert()
         } else {
