@@ -47,10 +47,6 @@ export default {
     return {
       socials: [
         {
-          icon: 'mdi-facebook ',
-          href: 'https://www.facebook.com/mimiroff',
-        },
-        {
           icon: 'mdi-at ',
           href: "mailto:ibarashkov@gmail.com",
         },
